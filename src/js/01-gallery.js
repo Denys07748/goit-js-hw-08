@@ -15,11 +15,11 @@ function createImegesMarkup(galleryItems) {
   return galleryItems
     .map(
       ({ preview, original, description }) => `
-  <li>
+  <div>
     <a class="gallery__item" href="${original}">
         <img class="gallery__image" src="${preview}" alt="${description}" />
     </a>
-  </li>`
+  </div>`
     )
     .join('');
 }
