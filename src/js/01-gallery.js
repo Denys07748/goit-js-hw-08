@@ -24,7 +24,7 @@ function createImegesMarkup(galleryItems) {
     .join('');
 }
 
-const SimpleLightbox = new SimpleLightbox('.gallery a', {
+const simpleLightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
